@@ -1,50 +1,74 @@
 [
-    {
-        "id": 1,
-        "name": "Kuddus",
-        "photoUrl": "https://i.ibb.co/PZ9CgM3/48-V-DC-Electric-Bike-Display-Plastic.jpg",
-        "gender": "male",
-        "contact": "+516515454154",
-        "address": "Dhaka"
-    },
-    {
-        "id": 2,
-        "name": "Guddus",
-        "photoUrl": "https://i.ibb.co/MMPP7my/MY1020-Z-600-Watt-DC-Geared-Motor-For-E-Bike.jpg",
-        "gender": "female",
-        "contact": "+416515454154",
-        "address": "Bogra"
-    },
-    {
-        "id": 3,
-        "name": "Juddus",
-        "photoUrl": "https://i.ibb.co/XZzK1nx/Yalu-24-V-350-W-Aluminium-E-Bike-Controller.jpg",
-        "gender": "female",
-        "contact": "+986515454154",
-        "address": "Rajshahi"
-    },
-    {
-        "id": 4,
-        "name": "Muddus",
-        "photoUrl": "https://i.ibb.co/tHr8qF8/Front-Fork-Suspension-Assembly-For-Tvs-Jupiter-Disc-Brake.jpg",
-        "gender": "male",
-        "contact": "+216515454154",
-        "address": "Chattagram"
-    },
-    {
-        "id": 5,
-        "name": "Tuddus",
-        "photoUrl": "https://i.ibb.co/c1G0FXm/Two-Wheeler-Mild-Steel-Motorcycle-Chain.jpg",
-        "gender": "male",
-        "contact": "+746515454154",
-        "address": "Barishal"
-    },
-    {
-        "id": 6,
-        "name": "Buddus",
-        "photoUrl": "https://i.ibb.co/Pj6FzbQ/Automotive-Wire-Harness.jpg",
-        "gender": "male",
-        "contact": "+646515454154",
-        "address": "Rangpur"
-    }
+  {
+    "Id": 1,
+    "name": "Kuddus",
+    "photoUrl": "https://i.ibb.co/PZ9CgM3/48-V-DC-Electric-Bike-Display-Plastic.jpg",
+    "gender": "male",
+    "contact": "+516515454154",
+    "address": "Dhaka"
+  },
+  {
+    "Id": 2,
+    "name": "Guddus",
+    "photoUrl": "https://i.ibb.co/MMPP7my/MY1020-Z-600-Watt-DC-Geared-Motor-For-E-Bike.jpg",
+    "gender": "female",
+    "contact": "+416515454154",
+    "address": "Bogra"
+  },
+  {
+    "Id": 3,
+    "name": "Juddus",
+    "photoUrl": "https://i.ibb.co/XZzK1nx/Yalu-24-V-350-W-Aluminium-E-Bike-Controller.jpg",
+    "gender": "female",
+    "contact": "+986515454154",
+    "address": "Rajshahi"
+  },
+  {
+    "Id": 4,
+    "name": "Muddus",
+    "photoUrl": "https://i.ibb.co/tHr8qF8/Front-Fork-Suspension-Assembly-For-Tvs-Jupiter-Disc-Brake.jpg",
+    "gender": "male",
+    "contact": "+216515454154",
+    "address": "Chattagram"
+  },
+  {
+    "Id": 5,
+    "name": "Huddus",
+    "photoUrl": "https://i.ibb.co/c1G0FXm/Two-Wheeler-Mild-Steel-Motorcycle-Chain.jpg",
+    "gender": "male",
+    "contact": "+746515454154",
+    "address": "Barishal"
+  },
+  {
+    "Id": 6,
+    "name": "Buddus",
+    "photoUrl": "https://i.ibb.co/Pj6FzbQ/Automotive-Wire-Harness.jpg",
+    "gender": "male",
+    "contact": "+646515454154",
+    "address": "Rangpur"
+  },
+  {
+    "Id": 7,
+    "name": "Tuddus",
+    "photoUrl": "https://i.ibb.co/c1G0FXm/Two-Wheeler-Mild-Steel-Motorcycle-Chain.jpg",
+    "gender": "male",
+    "contact": "+746515454154",
+    "address": "Borishal"
+  },
+  {
+    "Id": 8,
+    "name": "Ruddus",
+    "photoUrl": "https://i.ibb.co/Pj6FzbQ/Automotive-Wire-Harness.jpg",
+    "gender": "male",
+    "contact": "+126515454154",
+    "address": "Dinajpur"
+  },
+  {
+    "Id": 9,
+    "name": "Suddus",
+    "photoUrl": "https://i.ibb.co/PZ9CgM3/48-V-DC-Electric-Bike-Display-Plastic.jpg",
+    "gender": "Female",
+    "contact": "+326515454154",
+    "address": "Gaibandha"
+  }
 ]
