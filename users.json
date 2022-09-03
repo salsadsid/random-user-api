@@ -5,7 +5,7 @@
     "photoUrl": "https://i.ibb.co/PZ9CgM3/48-V-DC-Electric-Bike-Display-Plastic.jpg",
     "gender": "male",
     "contact": "+516515454154",
-    "address": "Dhaka"
+    "address": "Gopalgonj"
   },
   {
     "Id": 2,
@@ -13,7 +13,7 @@
     "photoUrl": "https://i.ibb.co/MMPP7my/MY1020-Z-600-Watt-DC-Geared-Motor-For-E-Bike.jpg",
     "gender": "female",
     "contact": "+416515454154",
-    "address": "Bogra"
+    "address": "Gopalgonj"
   },
   {
     "Id": 3,
@@ -21,7 +21,7 @@
     "photoUrl": "https://i.ibb.co/XZzK1nx/Yalu-24-V-350-W-Aluminium-E-Bike-Controller.jpg",
     "gender": "female",
     "contact": "+986515454154",
-    "address": "Rajshahi"
+    "address": "Gopalgonj"
   },
   {
     "Id": 4,
@@ -54,21 +54,5 @@
     "gender": "male",
     "contact": "+746515454154",
     "address": "Borishal"
-  },
-  {
-    "Id": 8,
-    "name": "Ruddus",
-    "photoUrl": "https://i.ibb.co/Pj6FzbQ/Automotive-Wire-Harness.jpg",
-    "gender": "male",
-    "contact": "+126515454154",
-    "address": "Dinajpur"
-  },
-  {
-    "Id": 9,
-    "name": "Suddus",
-    "photoUrl": "https://i.ibb.co/PZ9CgM3/48-V-DC-Electric-Bike-Display-Plastic.jpg",
-    "gender": "Female",
-    "contact": "+326515454154",
-    "address": "Gaibandha"
   }
 ]

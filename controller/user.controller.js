@@ -77,3 +77,59 @@ module.exports.updateAUser = (req, res) => {
         res.send("Not valid ID!!!")
     }
 }
+
+module.exports.bulkUpdate = (req, res) => {
+    const Ids = req.body;
+    if (Ids.length) {
+        fs.readFile('users.json', (err, data) => {
+            if (err) throw err;
+            let dataParsed = JSON.parse(data);
+            Ids.forEach(element => {
+                const matchedUser = dataParsed.find(user => user.Id == element)
+                matchedUser.address = "Gopalgonj"
+            });
+            let newData = JSON.stringify(dataParsed, null, 2)
+            fs.writeFile('users.json', newData, (err) => {
+                if (err) throw err;
+                fs.readFile('users.json', (err, data) => {
+                    if (err) throw err;
+                    let dataParsed = JSON.parse(data);
+                    res.send(dataParsed);
+                })
+            })
+        })
+    }
+    else {
+        res.send("Not valid Input!!!")
+    }
+}
+
+module.exports.deleteAUser = (req, res) => {
+    const Id = req.params.id;
+    if (!isNaN(Id)) {
+        fs.readFile('users.json', (err, data) => {
+            if (err) throw err;
+            let dataParsed = JSON.parse(data);
+            const matchedUser = dataParsed.find(user => user.Id == Id);
+            if (matchedUser) {
+                const updatedCollection = dataParsed.filter(user => user.Id != Id)
+                let newData = JSON.stringify(updatedCollection, null, 2)
+                fs.writeFile('users.json', newData, (err) => {
+                    if (err) throw err;
+                    fs.readFile('users.json', (err, data) => {
+                        if (err) throw err;
+                        let dataParsed = JSON.parse(data);
+                        res.send(dataParsed);
+                    })
+                })
+            }
+            else {
+                res.send("Not valid ID!!!")
+            }
+
+        })
+    }
+    else {
+        res.send("Not valid ID!!!")
+    }
+}
